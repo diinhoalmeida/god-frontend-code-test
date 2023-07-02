@@ -2,7 +2,7 @@ import "../public/css/styles.css";
 import React, { useState } from "react";
 import { StyleProvider, ThemePicker, View } from "vcc-ui";
 import Header from "../src/components/Header/header";
-// import Home from "../src/components/Home/home";
+import Home from "../src/components/Home/home";
 
 function HomePage() {
   const [nav, setNav] = useState<boolean>(false);
@@ -13,7 +13,7 @@ function HomePage() {
         <React.StrictMode>
           <View>
             <Header nav={nav} setNav={setNav} />
-            {/* <Home /> */}
+            <Home />
           </View>
         </React.StrictMode>
       </ThemePicker>

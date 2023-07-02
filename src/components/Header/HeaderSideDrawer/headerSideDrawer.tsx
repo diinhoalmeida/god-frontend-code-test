@@ -15,6 +15,7 @@ export default function HeaderSideDrawer({
         position: "fixed",
         top: 0,
         right: nav ? 0 : "-100%",
+        display: nav ? "block" : "none",
         width: "400px",
         height: "100vh",
         backgroundColor: "white",
