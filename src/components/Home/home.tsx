@@ -20,7 +20,8 @@ export default function Home() {
       <Flex
         extend={{
           width: "100vw",
-          height: "600px",
+          height: "700px",
+          marginTop: "70px",
           position: "relative",
           overflow: "hidden",
           display: "flex",

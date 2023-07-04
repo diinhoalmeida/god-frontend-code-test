@@ -16,8 +16,9 @@ export default function Header({ nav, setNav }: HeaderProps) {
         height: "70px",
         backgroundColor: "#FAFAFA",
         justifyContent: "center",
-        position: "relative",
+        position: "fixed",
         alignItems: "center",
+        zIndex: 10,
         flexDirection: "row",
       }}
     >
